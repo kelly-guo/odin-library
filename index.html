@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+
+    <button class="create-book">Create Book</button>
+
+    <dialog id="book-dialog">
+        <form id="book-form">
+            <h3>Add a new book</h3>
+
+            <label for="title">Book Title:</label>
+            <input type="text" id="title">
+
+            <label for="author">Author:</label>
+            <input type="author" id="author">
+
+
+            <label for="pages">Pages:</label>
+            <input type="number" id="pages">
+
+            <label for="read">
+                <input type="checkbox" id="read"> I have read this book
+            </label>
+
+            <div class="form-actions">
+                <button type="button" id="closeModalBtn">Cancel</button>
+                <button type="submit">Add Book</button>
+            </div>
+
+        </form>
+    </dialog>
+    
+</body>
+</html>
